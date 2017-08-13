@@ -1,0 +1,7 @@
+{
+  "@metadata": {
+    "authors": []
+  },
+  "abortusertitles-desc": "ページ名と同じユーザー名の作成をブロックする。",
+  "abortusertitles-bad": "ページ名と同じ名前のアカウントは作成できません。"
+}
