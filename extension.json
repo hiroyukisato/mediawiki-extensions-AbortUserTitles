@@ -1,0 +1,27 @@
+{
+	"name": "AbortUserTitles",
+	"author": [
+		"48pedia"
+	],
+	"url": "https://48pedia.org",
+	"descriptionmsg": "abortusertitles-desc",
+	"license-name": "GPL-2.0+",
+	"type": "antispam",
+	"MessagesDirs": {
+		"AbortUserTitles": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"AbortUserTitlesPreAuthenticationProvider": "AbortUserTitlesPreAuthenticationProvider.php"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"AbortUserTitlesPreAuthenticationProvider":{
+				"class": "AbortUserTitlesPreAuthenticationProvider",
+				"sort": 10
+			}
+		}
+	},
+	"manifest_version": 1
+}
